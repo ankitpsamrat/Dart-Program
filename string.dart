@@ -1,5 +1,7 @@
 void main(List<String> args) {
-  // String n = 'samrat'; //  we can use both single or double quotes
+  //  we can use both single or double quotes
+
+  // String n = 'samrat';
   // String n1 = "SAMRAT";
 
   // print(n);

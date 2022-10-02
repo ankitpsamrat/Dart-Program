@@ -1,6 +1,6 @@
 void main(List<String> args) {
-  int num = 20;
-  print(num);
+  // int num = 20;
+  // print(num);
 
   // double price = 10.47;
   // print(price);
@@ -23,7 +23,7 @@ void main(List<String> args) {
   // print(check2);
   // print(check2.runtimeType);
 
-  // var check3 = true;
-  // print(check3);
-  // print(check3.runtimeType);
+  var check3 = true;
+  print(check3);
+  print(check3.runtimeType);
 }

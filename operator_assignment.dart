@@ -1,10 +1,10 @@
 void main(List<String> args) {
   //  method 1
 
-  var n = 10;
-  n += 5;
+  // var n = 10;
+  // n += 5;
 
-  print(n);
+  // print(n);
 
   //  method 2
 
