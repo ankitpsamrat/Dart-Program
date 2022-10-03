@@ -1,3 +1,5 @@
+// ignore_for_file: dead_code
+
 void main(List<String> args) {
   //  method 1
 
