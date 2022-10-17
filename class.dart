@@ -1,11 +1,12 @@
 class Car {
-  // field
   String engine = "E1001";
 
-  // function
-  disp() {
+  void disp() {
     print(engine);
   }
 }
 
-void main(List<String> args) {}
+void main(List<String> args) {
+  Car c = new Car();
+  c.disp();
+}
