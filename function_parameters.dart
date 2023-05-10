@@ -1,4 +1,6 @@
 //  named parameters
+//  When defining a function, use {param1, param2, …}
+//  to specify named parameters
 
 //  method 1
 
