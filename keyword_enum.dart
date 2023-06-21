@@ -6,16 +6,15 @@ enum Status {
 }
 
 void main(List<String> args) {
-
   //  print all value
   print(Status.values);
 
   //  print single value
-  print('Single: ${Status.running}'); 
+  print('Single: ${Status.running}');
 
   //  print value index
-  print('Index: ${Status.running.index}'); 
+  print('Index: ${Status.running.index}');
 
   //  print value through index
-  print('running index: ${Status.values[1]}'); 
+  print('running index: ${Status.values[1]}');
 }
