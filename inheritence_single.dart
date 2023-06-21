@@ -12,7 +12,6 @@ class Parrot extends Bird {
   }
 }
 
-
 void main(List<String> args) {
   Parrot p = new Parrot();
   p.speak();
