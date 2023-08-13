@@ -1,14 +1,10 @@
 void main(List<String> args) {
   //  method 1
-
   // Map address = Map();
-
   // print(address);
 
   //  method 2
-
   // Map address1 = {};
-
   // print(address1);
 
   //  add value into empty map
