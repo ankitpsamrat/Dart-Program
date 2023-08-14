@@ -1,7 +1,6 @@
 void main(List<String> args) {
   //  add value in empty list
-  // var boy = [];
-
+  // List boy = [];
   // boy.add('Vishal');
   // boy.add('Samrat');
   // print(boy);
