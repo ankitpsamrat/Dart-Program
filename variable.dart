@@ -1,9 +1,12 @@
 void main(List<String> args) {
-  var name = 'SAMRAT'; //  here name is a varible
-  int age = 20; //  here age is a varible
-  Object name2 = 'Bob';
+  // syntax: dataType variableName = value;
 
+  var name = 'ANKIT';
   print(name);
+
+  int age = 20;
   print(age);
+
+  Object name2 = 'SAMRAT';
   print(name2);
 }
