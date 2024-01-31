@@ -1,24 +1,20 @@
 void main(List<String> args) {
-  var name = 'samrat';
-  var num = 20;
+  String name = 'samrat';
+  int num = 20;
 
-  //  false print hoga kyoki 'is' keyword check
-  //  kr rha h ki name variable int h ya nhi
-
+  //  it will print false because 'is' keyword
+  //  is checking that 'name' variable is int or not
   print(name is int);
 
-  //  true print hoga kyoki 'is!' keyword check
-  //  kr rha h ki name variable int h ya nhi
-
+  //  it will print true because 'is!' keyword
+  //  is checking that 'name' variable is int or not
   print(name is! int);
 
-  //  false print hoga kyoki 'is' keyword check
-  //  kr rha h ki num variable string h ya nhi
-
+  //  it will print false because 'is' keyword
+  //  is checking that 'num' variable is string or not
   print(num is String);
 
-  //  true print hoga kyoki 'is!' keyword check
-  //  kr rha h ki num variable string h ya nhi
-
+  //  it will print true because 'is!' keyword
+  //  is checking that 'num' variable is string or not
   print(num is! String);
 }

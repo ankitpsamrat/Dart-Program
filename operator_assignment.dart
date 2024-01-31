@@ -1,15 +1,15 @@
 void main(List<String> args) {
-  //  method 1
+  int n = 10;
 
-  // var n = 10;
-  // n += 5;
+  // method 1 to assign value
+  n += 5;
+  print(n);
 
-  // print(n);
+  // method 2 to assign value
+  n = 5;
+  print(n);
 
-  //  method 2
-
-  var n1 = 10;
-  n1 -= 5;
-
-  print(n1);
+  // method 3 to assign value
+  n = n + 5;
+  print(n);
 }

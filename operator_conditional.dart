@@ -1,15 +1,12 @@
 // ignore_for_file: dead_code
 
 void main(List<String> args) {
-  //  method 1
+  // syntax: condition ? expr1 : expr2
 
-  // var isLogin = true;
-  // var user = isLogin ? 'Samrat' : 'Ankit';
-  // print(user);
+  // if condition is true then it will
+  // return expr1 otherwise expr2
 
-  //  method 2
-
-  var isLogin = false;
-  var user = isLogin ? 'Samrat' : 'Ankit';
+  bool isLogin = false;
+  String user = isLogin ? 'Samrat' : 'Ankit';
   print(user);
 }
