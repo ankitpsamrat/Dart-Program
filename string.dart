@@ -1,24 +1,18 @@
 void main(List<String> args) {
-  //  we can use both single or double quotes
+  String s1 = 'Single quotes work well for string.';
+  print(s1);
 
-  // String n = 'samrat';
-  // String n1 = "SAMRAT";
+  String s2 = "Double quotes also work as well.";
+  print(s2);
 
-  // print(n);
-  // print(n1);
+  String s3 = 'It\'s easy to escape the string delimiter.';
+  print(s3);
 
-  //  mutliline string likhane ke liye
-  //  triple single or double quotes use hota h
+  String s4 = "It's even easier to use the other delimiter.";
+  print(s4);
 
-  // String n2 = '''hello
-  // my name
-  // is samrat''';
-
-  // print(n2);
-
-  String n3 = """hello
-  my name
-  is samrat""";
-
-  print(n3);
+  String s5 = """This is
+  multi
+  line string""";
+  print(s5);
 }
