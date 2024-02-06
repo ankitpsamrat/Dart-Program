@@ -1,4 +1,6 @@
-// Dart program to show the Sets concept
+// A set in Dart is an unordered
+// collection of unique items.
+
 void main(List<String> args) {
 // Declaring set in First Way
   var s1 = <String>{'Ankit'};

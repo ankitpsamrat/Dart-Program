@@ -1,61 +1,34 @@
 void main() {
-// Declaring set with value
-  var gfg = <String>{'Hello Geek'};
+  Set<String> st = {'Hello'};
 
-// Printing Set
-  print("Value in the set is: $gfg");
+  // print set
+  print(st);
 
-// Adding an element in the set
-  gfg.add("GeeksForGeeks");
+  // add single value
+  st.add('Guys!');
+  print(st);
 
-// Printing Set
-  print("Values in the set is: $gfg");
+  // add multiple values
+  Set<String> st2 = {'How', 'are', 'you?'};
+  st.addAll(st2);
+  print(st);
 
-// Adding multiple values to the set
-  var geeks_name = {"Geek1", "Geek2", "Geek3"};
-  gfg.addAll(geeks_name);
+  // getting value at Index 0
+  var idx = st.elementAt(0);
+  print(idx);
 
-// Printing Set
-  print("Values in the set is: $gfg");
+  // length
+  print(st.length);
 
-// Getting element at Index 0
-  var geek = gfg.elementAt(0);
+  // check value
+  bool check = st.contains('Hello');
+  print(check);
 
-// Printing the element
-  print("Element at index 0 is: $geek");
+  // remove value
+  st.remove('Guys!');
+  print(st);
 
-// Counting the length of the set
-  int l = gfg.length;
-
-// Printing length
-  print("Length of the set is: $l");
-
-// Finding the element in the set
-  bool check = gfg.contains("GeeksForGeeks");
-
-// Printing boolean value
-  print("The value of check is: $check");
-
-// Removing an element from the set
-  gfg.remove("Hello Geek");
-
-// Printing Set
-  print("Values in the set is: $gfg");
-
-// Using forEach in set
-  print(" ");
-  print("Using forEach in set:");
-  gfg.forEach((element) {
-    if (element == "Geek1") {
-      print("Found");
-    } else {
-      print("Not Found");
-    }
-  });
-
-// Deleting elements from set
-  gfg.clear();
-
-// Printing set
-  print("Values in the set is: $gfg");
+  // Deleting value
+  st.clear();
+  print(st);
 }
