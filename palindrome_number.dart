@@ -1,13 +1,13 @@
 bool isPalindromeNumber(int number) {
-  // Handle negative numbers (not palindromes)
+  // handle negative numbers
   if (number < 0) {
     return false;
   }
 
-  // Convert number to string
+  // convert number to string
   String reversed = number.toString().split('').reversed.join('');
 
-  // Compare original and reversed string
+  // compare original and reversed string
   return int.parse(reversed) == number;
 }
 
