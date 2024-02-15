@@ -1,11 +1,19 @@
 // ignore_for_file: unused_local_variable
 
-class Car {
-  Car(String engine) {
-    print(engine);
+class Person {
+  String name;
+  int age;
+
+  Person(this.name, this.age) {
+    print('$name you are $age old.');
+
+    // can call methods or variables here
+    print(msg());
   }
+
+  String msg() => 'Hurray! you are adult.';
 }
 
 void main(List<String> args) {
-  Car c = new Car('E1001');
+  Person obj = Person('Ankit', 22);
 }
