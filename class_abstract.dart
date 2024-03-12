@@ -1,13 +1,24 @@
-//  abstract methods simply don’t have a body
+// abstract methods simply don’t have a body
 
-//  This is an abstract class.
-abstract class Example {
-  //  This is an abstract method because it has no body.
-  void methodOne();
+// abstract class.
+abstract class Vehicle {
+  // this is an abstract method because it has no body.
+  void accelerate();
 
-  //  This is NOT an abstract method because it has a body.
-  void methodTwo() {}
+  // this is not an abstract method because it has a body.
+  void model() {
+    print('Model no: 1900');
+  }
 }
 
-//  This must be an abstract class too!
-abstract class AnotherExample extends Example {}
+class Car extends Vehicle {
+  @override
+  void accelerate() {
+    print('This vehicle is very expensive.');
+  }
+}
+
+void main(List<String> args) {
+  Car obj = Car();
+  obj.accelerate();
+}
