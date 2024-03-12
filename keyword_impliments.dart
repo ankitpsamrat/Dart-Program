@@ -1,28 +1,30 @@
-// Class First
-class First {
-  void firstFunc() {
-    print('hello');
+class Animal {
+  int noOfLegs = 4;
+
+  void eat() {
+    print('Animal can run.');
   }
 }
 
-// inherit the propertied of implemented class
-class Second implements First {
+// inherit the properties of implemented class
+class Bird implements Animal {
   @override
-  void firstFunc() {
-    print('We had to declare the methods of implemented class');
+  int noOfLegs = 2;
+
+  @override
+  void eat() {
+    print('Bird can fly.');
   }
 }
 
 void main(List<String> args) {
-  // instance of First Class
-  var one = First();
+  // create object for animal
+  Animal obj1 = Animal();
+  print(obj1.noOfLegs);
+  obj1.eat();
 
-  // calling firstFunc()
-  one.firstFunc();
-
-  // instance of Second Class
-  var second = Second();
-
-  // calling firstFunc() that has been inherited
-  second.firstFunc();
+  // create object for bird
+  var obj2 = Bird();
+  print(obj2.noOfLegs);
+  obj2.eat();
 }
