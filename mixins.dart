@@ -1,5 +1,15 @@
-class Musician {}
+mixin Jump {
+  String jump = 'Can jump';
+}
 
-mixin MusicalPerformer on Musician {}
+// call mixin using with keyword
+class Animal with Jump {
+  void fn() {
+    print(jump);
+  }
+}
 
-class SingerDancer extends Musician with MusicalPerformer {}
+void main(List<String> args) {
+  Animal obj = Animal();
+  obj.fn();
+}
