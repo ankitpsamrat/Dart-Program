@@ -5,6 +5,9 @@ class Student {
   final String name;
 
   Student(this.name);
+
+  @override
+  String toString() => name;
 }
 
 void main(List<String> args) {
@@ -16,6 +19,5 @@ void main(List<String> args) {
     Student('Samrat'),
   ];
 
-  final data = students[0];
-  print(data.name);
+  print(students);
 }
