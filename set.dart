@@ -2,15 +2,12 @@
 // collection of unique items.
 
 void main(List<String> args) {
-// Declaring set in First Way
-  var s1 = <String>{'Ankit'};
+  // when value of set is unique
+  Set s1 = <String>{'Ankit'};
+  print(s1);
 
-// Printing First Set
-  print("Output of first set: $s1");
-
-// Declaring set in Second Way
-  Set<String> s2 = {'Ankit'};
-
-// Printing Second Set
-  print("Output of second set: $s2");
+  // when value of set is not unique
+  // it's giving warning because value is not unique
+  // Set s2 = {'Ankit', 'Ankit'};
+  // print(s2);
 }
