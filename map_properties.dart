@@ -20,18 +20,27 @@ void main(List<String> args) {
   // check map contains value or not
   print(details.containsValue('Samrat'));
 
+  // add an entry into the map
+  details['occupation'] = 'Software Engineer';
+  print(details);
+
   // remove an entry from the map
-  details.remove('country');
+  details.remove('occupation');
   print(details);
 
-  // Clearing the map
-  details.clear();
-  print(details);
-
-  // checking if a value exists in the map or not
+  // check if a value exists in the map or not
   if (details.containsValue('Samrat')) {
     print(details.keys.firstWhere((key) => details[key] == 'Samrat'));
   } else {
     print("No value found");
   }
+
+  // looping through key-value pairs
+  details.forEach((key, value) {
+    print('Key: $key, Value: $value');
+  });
+
+  // clear the map
+  details.clear();
+  print(details);
 }
