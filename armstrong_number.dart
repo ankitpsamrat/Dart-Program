@@ -31,9 +31,9 @@ bool isArmstrongNumber(int number) {
 }
 
 void main() {
-  print(isArmstrongNumber(153));  // true
-  print(isArmstrongNumber(371));  // true
-  print(isArmstrongNumber(123));  // false
-  print(isArmstrongNumber(0));    // true
+  print(isArmstrongNumber(153)); // true
+  print(isArmstrongNumber(371)); // true
+  print(isArmstrongNumber(123)); // false
+  print(isArmstrongNumber(0)); // true
   print(isArmstrongNumber(-153)); // false
 }
