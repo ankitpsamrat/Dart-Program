@@ -1,6 +1,11 @@
 void main(List<String> args) {
-  var i = 3;
+  // prefix increment (value incremented before used)
+  int a = 3;
+  int b = ++a;
+  print("a: $a , b: $b");
 
-  // print(++i);
-  print(i + 1); //  aise bhi likha jata h
+  // postfix increment (value used before incremented)
+  int c = 5;
+  int d = c++;
+  print("c: $c , d: $d");
 }
