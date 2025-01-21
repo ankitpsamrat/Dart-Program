@@ -1,10 +1,14 @@
 // print square pattern
 
+import 'dart:io';
+
 void main(List<String> args) {
-  for (int i = 0; i < 10; i++) {
-    for (int j = 0; j < 10; j++) {
-      print('*');
+  int n = 5;
+
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+      stdout.write('*'); // Print without a newline
     }
-    print('\n');
+    print('\n'); // Print a newline after each row
   }
 }

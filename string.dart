@@ -15,4 +15,7 @@ void main(List<String> args) {
   multi
   line string""";
   print(s5);
+
+  String s6 = r'jb string ke phle ' r' lga diya jayega tb vo raw ho jata';
+  print(s6);
 }
