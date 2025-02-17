@@ -4,7 +4,7 @@ void main(List<String> args) {
   //  access all value from list
   // print(lst);
 
-  //  access all value one by one from list
+  //  access all value from list using index
   print(lst[0]);
   print(lst[1]);
   print(lst[2]);

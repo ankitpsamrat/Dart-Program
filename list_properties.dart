@@ -4,6 +4,15 @@ void main(List<String> args) {
   // to check the length of list
   // print(s.length);
 
+  // to check the list is empty or not
+  // print(s.isEmpty);
+
+  // to check the list is not empty
+  // print(s.isNotEmpty);
+
+  // to check the value contains in list
+  // print(s.contains('Samrat'));
+
   // to reverse the value of list
   // print(s.reversed);
 
@@ -23,6 +32,21 @@ void main(List<String> args) {
 
   // to remove last value from list
   // s.removeLast();
+  // print(s);
+
+  // to add value at the end of list
+  // s.add('Ankit');
+  // print(s);
+
+  // to sort the value of list
+  // s.sort();
+  // print(s);
+
+  // to print all value of list
+  // s.forEach(print);
+
+  // to shuffle the value of list
+  // s.shuffle();
   // print(s);
 
   // to remove all value from list
