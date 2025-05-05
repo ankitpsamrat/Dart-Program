@@ -1,6 +1,11 @@
-lookUpVersion() {}
+Future<void> printName() async {
+  print('ankit');
 
-Future<void> checkVersion() async {
-  var version = await lookUpVersion();
-  print(version);
+  await Future.delayed(Duration(seconds: 3));
+
+  print('samrat');
+}
+
+void main(List<String> args) {
+  printName();
 }
