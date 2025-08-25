@@ -31,9 +31,13 @@ class User {
 }
 
 void main(List<String> args) {
-  final jsonData = '{"id":1,"name":"Ankit","email":"ankit@example.com"}';
-  final user = User.fromJson(jsonDecode(jsonData));
+  // converting JSON to Dart object
+  final String jsonData = '{"id":1,"name":"Ankit","email":"ankit@example.com"}';
+  final User user = User.fromJson(jsonDecode(jsonData));
+  print(user.toJson());
 
-  print(user.name);
-  print(user.email);
+  // converting Dart object to JSON
+  final User user2 = User(id: 2, name: 'John', email: 'jhon@gmail.com');
+  final String userJson = jsonEncode(user2.toJson());
+  print(userJson);
 }
